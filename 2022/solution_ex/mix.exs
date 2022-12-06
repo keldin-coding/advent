@@ -37,6 +37,6 @@ defmodule SolutionEx.MixProject do
     # IO.puts("and we got #{problem_number}")
     padded_num = problem_number |> String.pad_leading(2, "0")
 
-    Mix.Task.run("run", ["./lib/runners/day#{padded_num}.exs"])
+    Mix.Task.run("run", ["priv/day#{padded_num}.exs"])
   end
 end
