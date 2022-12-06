@@ -1,4 +1,4 @@
-defmodule SolutionEx.Day2Main do
+defmodule SolutionEx.Day02Main do
   # Part
 
   def part1(input_lines) do

@@ -1,13 +1,13 @@
-defmodule SolutionEx.Day1MainTest do
+defmodule SolutionEx.Day01MainTest do
   use ExUnit.Case
   doctest SolutionEx
 
   test "part 1" do
-    assert SolutionEx.Day1Main.part1(test_input()) == 7
+    assert SolutionEx.Day01Main.part1(test_input()) == 7
   end
 
   test "part 2" do
-    assert SolutionEx.Day1Main.part2(test_input()) == 5
+    assert SolutionEx.Day01Main.part2(test_input()) == 5
   end
 
   def test_input do

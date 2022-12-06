@@ -1,4 +1,4 @@
-defmodule SolutionEx.Day3Main do
+defmodule SolutionEx.Day03Main do
   def part1(input_lines) do
     input_lines
     |> Enum.map(fn line ->
@@ -29,11 +29,6 @@ defmodule SolutionEx.Day3Main do
       sum + val
     end)
   end
-
-  defp make_chunks_of_three([], acc), do: Enum.reverse(acc)
-
-  defp make_chunks_of_three([a, b, c | rest], acc),
-    do: make_chunks_of_three(rest, [{a, b, c} | acc])
 
   # Lowercase letters
   defp priority_for_letter(letter) when letter >= 97 do
